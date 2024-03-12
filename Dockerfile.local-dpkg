@@ -1,4 +1,4 @@
-FROM debian:bookworm-20231009-slim
+FROM debian:12-slim
 
 RUN set -eux; \
 	apt-get update; \
